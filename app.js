@@ -1,6 +1,5 @@
 'use strict';
 
-var ns = require('newrelic');
 var _get = require('lodash/get');
 var express = require('express');
 var compression = require('compression');
