@@ -21,7 +21,7 @@
 // Description: Basic web server to display data from Dexcom G4.  Requires a database that contains
 // the Dexcom SGV data.
 'use strict';
-
+require('newrelic');
 ///////////////////////////////////////////////////
 // DB Connection setup and utils
 ///////////////////////////////////////////////////
