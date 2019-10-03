@@ -23,7 +23,6 @@
 'use strict';
 
 // Fail Fail Fail require('newrelic'); //
-require('newrelic'); 
 
 ///////////////////////////////////////////////////
 // DB Connection setup and utils
