@@ -22,7 +22,6 @@
 // the Dexcom SGV data.
 'use strict';
 
-// Fail Fail Fail require('newrelic'); //
 
 ///////////////////////////////////////////////////
 // DB Connection setup and utils
@@ -46,6 +45,9 @@ function create (app) {
   }
   return transport.createServer(app);
 }
+
+//add New Relic//
+require('newrelic');
 
 require('./lib/server/bootevent')(env, language).boot(function booted (ctx) {
     var app = require('./app')(env, ctx);
